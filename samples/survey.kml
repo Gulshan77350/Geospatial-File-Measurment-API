@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2"><Document>
+<Folder><name>Site survey</name>
+  <Placemark id="field-1"><name>North field</name>
+    <ExtendedData><Data name="crop"><value>wheat</value></Data></ExtendedData>
+    <Polygon><outerBoundaryIs><LinearRing><coordinates>
+      77.2090,28.6139,0 77.2190,28.6139,0 77.2190,28.6239,0 77.2090,28.6239,0 77.2090,28.6139,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark id="road-1"><name>Access road</name>
+    <LineString><coordinates>77.2090,28.6139 77.2150,28.6100 77.2250,28.6100</coordinates></LineString></Placemark>
+  <Placemark id="well-1"><name>Well</name><Point><coordinates>77.2140,28.6189</coordinates></Point></Placemark>
+  <Placemark id="mixed-1"><name>Mixed</name><MultiGeometry>
+    <Point><coordinates>77.2100,28.6150</coordinates></Point>
+    <LineString><coordinates>77.2100,28.6150 77.2120,28.6170</coordinates></LineString>
+  </MultiGeometry></Placemark>
+</Folder>
+</Document></kml>
